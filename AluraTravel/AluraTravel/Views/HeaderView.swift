@@ -6,8 +6,10 @@
 //
 
 import SwiftUI
+import Inject
 
 struct HeaderView: View {
+    @ObservedObject private var iO = Inject.observer
     var body: some View {
         GeometryReader { view in
             VStack {
@@ -50,5 +52,6 @@ struct HeaderView: View {
                 .offset(y: -35)
             }
         }
+        .enableInjection()
     }
 }
