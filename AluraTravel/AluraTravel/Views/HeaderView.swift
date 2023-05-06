@@ -15,6 +15,7 @@ struct HeaderView: View {
         
     var body: some View {
         let mainTitleFontSize: CGFloat = self._horizontalSizeClass == .compact ? 20 : 30
+        let buttonFontSize: CGFloat = self._horizontalSizeClass == .compact ? 17 : 24
         
         GeometryReader { view in
             VStack {
@@ -41,7 +42,7 @@ struct HeaderView: View {
                     Button("Hotéis") {}
                         .frame(width: 100, height: 50)
                         .overlay(RoundedRectangle(cornerRadius: 10).stroke(.blue, lineWidth: 10))
-                        .font(.custom("Avenir Medium", size: 17))
+                        .font(.custom("Avenir Medium", size: buttonFontSize))
                         .foregroundColor(.white)
                         .background(.blue)
                         .offset(x: -50)
@@ -49,7 +50,7 @@ struct HeaderView: View {
                     Button("Pacotes") {}
                         .frame(width: 100, height: 50)
                         .overlay(RoundedRectangle(cornerRadius: 10).stroke(.orange, lineWidth: 10))
-                        .font(.custom("Avenir Medium", size: 17))
+                        .font(.custom("Avenir Medium", size: buttonFontSize))
                         .foregroundColor(.white)
                         .background(.orange)
                         .offset(x: 50)
