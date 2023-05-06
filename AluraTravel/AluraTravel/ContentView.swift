@@ -25,13 +25,27 @@ struct ContentView: View {
                 }
                 .frame(width: view.size.width, height: 100, alignment: .top)
                 .background(Color.purple)
-           
+                
+                HStack {
+                    Button("Hotéis") {}
+                        .frame(width: 100, height: 50)
+                        .font(.custom("Avenir Medium", size: 17))
+                        .foregroundColor(.white)
+                        .background(.blue)
+                    
+                    Button("Button") {}
+                        .frame(width: 100, height: 50)
+                        .font(.custom("Avenir Medium", size: 17))
+                        .foregroundColor(.white)
+                        .background(.orange)
+                        
+                }
                 
                 List {
                     Text("São Paulo")
                     Text("Rio de Janeiro")
                     Text("Ceará")
-                    Text("Atibai")
+                    Text("Atibaia")
                 }
             }
         }
