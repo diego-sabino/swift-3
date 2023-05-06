@@ -2,7 +2,7 @@
 //  AluraTravelApp.swift
 //  AluraTravel
 //
-//  Created by Diego Sabino on 03/05/23.
+//  Created by Diego Sabino on 05/05/23.
 //
 
 import SwiftUI
