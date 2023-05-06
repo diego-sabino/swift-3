@@ -15,29 +15,63 @@ struct CelluleTripsView: View {
     
     var body: some View {
         let fontSize: CGFloat = self._horizontalSizeClass == .compact ? 22 : 27
-        let imgHeight: CGFloat = self._horizontalSizeClass == .compact ? 250 : 500
+        let imgHeight: CGFloat = self._horizontalSizeClass == .compact ? 220 : 300
         
-        List(trips) { trip in
-            VStack(alignment: .leading) {
-                Text(trip.title)
-                    .font(.custom("Avenir Light", size: fontSize))
-                Image(trip.image)
-                    .resizable()
-                    .frame(height: imgHeight)
-                    .cornerRadius(10)
-                
-                HStack {
-                    Text(trip.numberOfDays)
+        if self._horizontalSizeClass == .compact {
+            List(trips) { trip in
+                VStack(alignment: .leading) {
+                    Text(trip.title)
                         .font(.custom("Avenir Light", size: fontSize))
+                    Image(trip.image)
+                        .resizable()
+                        .frame(height: imgHeight)
+                        .cornerRadius(10)
                     
-                    Spacer()
-                    
-                    Text(trip.value)
-                        .font(.custom("Avenir Light", size: fontSize))
+                    HStack {
+                        Text(trip.numberOfDays)
+                            .font(.custom("Avenir Light", size: fontSize))
+                        
+                        Spacer()
+                        
+                        Text(trip.value)
+                            .font(.custom("Avenir Light", size: fontSize))
+                    }
                 }
+                .listRowSeparator(.hidden)
             }
-            .listRowSeparator(.hidden)
+        } else {
+            ScrollView {
+                LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 20) {
+                    ForEach(trips) { trip in
+                        VStack(alignment: .leading) {
+                            Text(trip.title)
+                                .font(.custom("Avenir Light", size: fontSize))
+                                .lineLimit(1)
+                            
+                            Image(trip.image)
+                                .resizable()
+                                .frame(height: imgHeight)
+                                .cornerRadius(10)
+                            
+                            HStack {
+                                Text(trip.numberOfDays)
+                                    .font(.custom("Avenir Light", size: fontSize))
+                                
+                                Spacer()
+                                
+                                Text(trip.value)
+                                    .font(.custom("Avenir Light", size: fontSize))
+                            }
+                        }
+                        .padding(10)
+                        .background(Color.white)
+                        .cornerRadius(10)
+                        .shadow(radius: 5)
+                    }
+                }
+                .padding()
+            }
+            .enableInjection()
         }
-        .enableInjection()
     }
 }
