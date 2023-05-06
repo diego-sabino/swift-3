@@ -15,6 +15,7 @@
 		85B13CFD2A05F97C0045DD85 /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B13CFC2A05F97C0045DD85 /* Viagem.swift */; };
 		85B13D052A05FD050045DD85 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B13D042A05FD050045DD85 /* Data.swift */; };
 		85B13D072A05FDF00045DD85 /* trips.json in Resources */ = {isa = PBXBuildFile; fileRef = 85B13D062A05FDEF0045DD85 /* trips.json */; };
+		85B13D0A2A0602110045DD85 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B13D092A0602110045DD85 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		85B13CFC2A05F97C0045DD85 /* Viagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viagem.swift; sourceTree = "<group>"; };
 		85B13D042A05FD050045DD85 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		85B13D062A05FDEF0045DD85 /* trips.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = trips.json; sourceTree = "<group>"; };
+		85B13D092A0602110045DD85 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +61,9 @@
 		851F15FB2A04D1F2004D382E /* AluraTravel */ = {
 			isa = PBXGroup;
 			children = (
+				85B13D082A0601EC0045DD85 /* Views */,
 				85B13CF92A05F92F0045DD85 /* Models */,
 				851F15FC2A04D1F2004D382E /* AluraTravelApp.swift */,
-				851F15FE2A04D1F2004D382E /* ContentView.swift */,
 				851F16002A04D1F5004D382E /* Assets.xcassets */,
 				851F16022A04D1F5004D382E /* Preview Content */,
 				85B13D062A05FDEF0045DD85 /* trips.json */,
@@ -84,6 +86,15 @@
 				85B13D042A05FD050045DD85 /* Data.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		85B13D082A0601EC0045DD85 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				851F15FE2A04D1F2004D382E /* ContentView.swift */,
+				85B13D092A0602110045DD85 /* HeaderView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85B13D0A2A0602110045DD85 /* HeaderView.swift in Sources */,
 				85B13CFD2A05F97C0045DD85 /* Viagem.swift in Sources */,
 				85B13D052A05FD050045DD85 /* Data.swift in Sources */,
 				851F15FF2A04D1F2004D382E /* ContentView.swift in Sources */,
