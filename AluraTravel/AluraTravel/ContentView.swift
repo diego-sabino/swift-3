@@ -1,25 +1,24 @@
-//
-//  ContentView.swift
-//  AluraTravel
-//
-//  Created by Diego Sabino on 03/05/23.
-//
-
-import Inject
 import SwiftUI
+import Inject
 
 struct ContentView: View {
+    @ObservedObject private var iO = Inject.observer
     var body: some View {
         VStack {
-            Text("Hello, world!!!")
+            Text("AluraTrips")
+            Text("Especial")
+            Text("Brasil")
         }
-        .padding()
+        
+        List {
+            Text("São Paulo")
+            Text("Rio de Janeiro")
+            Text("Ceará")
+            Text("Atibaia")
+        }
+        
+        
+        
         .enableInjection()
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
     }
 }

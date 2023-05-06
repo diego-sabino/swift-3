@@ -7,67 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		853AC9B12A034E3A00D76596 /* AluraTravelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853AC9B02A034E3A00D76596 /* AluraTravelApp.swift */; };
-		853AC9B32A034E3A00D76596 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853AC9B22A034E3A00D76596 /* ContentView.swift */; };
-		853AC9B52A034E3C00D76596 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 853AC9B42A034E3C00D76596 /* Assets.xcassets */; };
-		853AC9B82A034E3C00D76596 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 853AC9B72A034E3C00D76596 /* Preview Assets.xcassets */; };
-		853AC9C02A034EEA00D76596 /* Inject in Frameworks */ = {isa = PBXBuildFile; productRef = 853AC9BF2A034EEA00D76596 /* Inject */; };
-		8599B4642A0355A900934B7C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8599B4632A0355A900934B7C /* .gitignore */; };
+		851F15FD2A04D1F2004D382E /* AluraTravelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851F15FC2A04D1F2004D382E /* AluraTravelApp.swift */; };
+		851F15FF2A04D1F2004D382E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851F15FE2A04D1F2004D382E /* ContentView.swift */; };
+		851F16012A04D1F5004D382E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 851F16002A04D1F5004D382E /* Assets.xcassets */; };
+		851F16042A04D1F5004D382E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 851F16032A04D1F5004D382E /* Preview Assets.xcassets */; };
+		858DF9492A05DB9400D9ACC8 /* Inject in Frameworks */ = {isa = PBXBuildFile; productRef = 858DF9482A05DB9400D9ACC8 /* Inject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		853AC9AD2A034E3A00D76596 /* AluraTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AluraTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		853AC9B02A034E3A00D76596 /* AluraTravelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AluraTravelApp.swift; sourceTree = "<group>"; };
-		853AC9B22A034E3A00D76596 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		853AC9B42A034E3C00D76596 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		853AC9B72A034E3C00D76596 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8599B4632A0355A900934B7C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		851F15F92A04D1F2004D382E /* AluraTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AluraTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		851F15FC2A04D1F2004D382E /* AluraTravelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AluraTravelApp.swift; sourceTree = "<group>"; };
+		851F15FE2A04D1F2004D382E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		851F16002A04D1F5004D382E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		851F16032A04D1F5004D382E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		853AC9AA2A034E3A00D76596 /* Frameworks */ = {
+		851F15F62A04D1F2004D382E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				853AC9C02A034EEA00D76596 /* Inject in Frameworks */,
+				858DF9492A05DB9400D9ACC8 /* Inject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		853AC9A42A034E3A00D76596 = {
+		851F15F02A04D1F2004D382E = {
 			isa = PBXGroup;
 			children = (
-				853AC9AF2A034E3A00D76596 /* AluraTravel */,
-				853AC9AE2A034E3A00D76596 /* Products */,
+				851F15FB2A04D1F2004D382E /* AluraTravel */,
+				851F15FA2A04D1F2004D382E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		853AC9AE2A034E3A00D76596 /* Products */ = {
+		851F15FA2A04D1F2004D382E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				853AC9AD2A034E3A00D76596 /* AluraTravel.app */,
+				851F15F92A04D1F2004D382E /* AluraTravel.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		853AC9AF2A034E3A00D76596 /* AluraTravel */ = {
+		851F15FB2A04D1F2004D382E /* AluraTravel */ = {
 			isa = PBXGroup;
 			children = (
-				853AC9B02A034E3A00D76596 /* AluraTravelApp.swift */,
-				853AC9B22A034E3A00D76596 /* ContentView.swift */,
-				853AC9B42A034E3C00D76596 /* Assets.xcassets */,
-				853AC9B62A034E3C00D76596 /* Preview Content */,
-				8599B4632A0355A900934B7C /* .gitignore */,
+				851F15FC2A04D1F2004D382E /* AluraTravelApp.swift */,
+				851F15FE2A04D1F2004D382E /* ContentView.swift */,
+				851F16002A04D1F5004D382E /* Assets.xcassets */,
+				851F16022A04D1F5004D382E /* Preview Content */,
 			);
 			path = AluraTravel;
 			sourceTree = "<group>";
 		};
-		853AC9B62A034E3C00D76596 /* Preview Content */ = {
+		851F16022A04D1F5004D382E /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				853AC9B72A034E3C00D76596 /* Preview Assets.xcassets */,
+				851F16032A04D1F5004D382E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -75,13 +72,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		853AC9AC2A034E3A00D76596 /* AluraTravel */ = {
+		851F15F82A04D1F2004D382E /* AluraTravel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 853AC9BB2A034E3C00D76596 /* Build configuration list for PBXNativeTarget "AluraTravel" */;
+			buildConfigurationList = 851F16072A04D1F5004D382E /* Build configuration list for PBXNativeTarget "AluraTravel" */;
 			buildPhases = (
-				853AC9A92A034E3A00D76596 /* Sources */,
-				853AC9AA2A034E3A00D76596 /* Frameworks */,
-				853AC9AB2A034E3A00D76596 /* Resources */,
+				851F15F52A04D1F2004D382E /* Sources */,
+				851F15F62A04D1F2004D382E /* Frameworks */,
+				851F15F72A04D1F2004D382E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -89,28 +86,28 @@
 			);
 			name = AluraTravel;
 			packageProductDependencies = (
-				853AC9BF2A034EEA00D76596 /* Inject */,
+				858DF9482A05DB9400D9ACC8 /* Inject */,
 			);
 			productName = AluraTravel;
-			productReference = 853AC9AD2A034E3A00D76596 /* AluraTravel.app */;
+			productReference = 851F15F92A04D1F2004D382E /* AluraTravel.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		853AC9A52A034E3A00D76596 /* Project object */ = {
+		851F15F12A04D1F2004D382E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					853AC9AC2A034E3A00D76596 = {
-						CreatedOnToolsVersion = 14.3;
+					851F15F82A04D1F2004D382E = {
+						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 853AC9A82A034E3A00D76596 /* Build configuration list for PBXProject "AluraTravel" */;
+			buildConfigurationList = 851F15F42A04D1F2004D382E /* Build configuration list for PBXProject "AluraTravel" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,46 +115,45 @@
 				en,
 				Base,
 			);
-			mainGroup = 853AC9A42A034E3A00D76596;
+			mainGroup = 851F15F02A04D1F2004D382E;
 			packageReferences = (
-				853AC9BE2A034EEA00D76596 /* XCRemoteSwiftPackageReference "Inject" */,
+				858DF9472A05DB9400D9ACC8 /* XCRemoteSwiftPackageReference "Inject" */,
 			);
-			productRefGroup = 853AC9AE2A034E3A00D76596 /* Products */;
+			productRefGroup = 851F15FA2A04D1F2004D382E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				853AC9AC2A034E3A00D76596 /* AluraTravel */,
+				851F15F82A04D1F2004D382E /* AluraTravel */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		853AC9AB2A034E3A00D76596 /* Resources */ = {
+		851F15F72A04D1F2004D382E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				853AC9B82A034E3C00D76596 /* Preview Assets.xcassets in Resources */,
-				8599B4642A0355A900934B7C /* .gitignore in Resources */,
-				853AC9B52A034E3C00D76596 /* Assets.xcassets in Resources */,
+				851F16042A04D1F5004D382E /* Preview Assets.xcassets in Resources */,
+				851F16012A04D1F5004D382E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		853AC9A92A034E3A00D76596 /* Sources */ = {
+		851F15F52A04D1F2004D382E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				853AC9B32A034E3A00D76596 /* ContentView.swift in Sources */,
-				853AC9B12A034E3A00D76596 /* AluraTravelApp.swift in Sources */,
+				851F15FF2A04D1F2004D382E /* ContentView.swift in Sources */,
+				851F15FD2A04D1F2004D382E /* AluraTravelApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		853AC9B92A034E3C00D76596 /* Debug */ = {
+		851F16052A04D1F5004D382E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -207,7 +203,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -217,7 +213,7 @@
 			};
 			name = Debug;
 		};
-		853AC9BA2A034E3C00D76596 /* Release */ = {
+		851F16062A04D1F5004D382E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -261,7 +257,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -271,7 +267,7 @@
 			};
 			name = Release;
 		};
-		853AC9BC2A034E3C00D76596 /* Debug */ = {
+		851F16082A04D1F5004D382E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -303,7 +299,7 @@
 			};
 			name = Debug;
 		};
-		853AC9BD2A034E3C00D76596 /* Release */ = {
+		851F16092A04D1F5004D382E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -338,20 +334,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		853AC9A82A034E3A00D76596 /* Build configuration list for PBXProject "AluraTravel" */ = {
+		851F15F42A04D1F2004D382E /* Build configuration list for PBXProject "AluraTravel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				853AC9B92A034E3C00D76596 /* Debug */,
-				853AC9BA2A034E3C00D76596 /* Release */,
+				851F16052A04D1F5004D382E /* Debug */,
+				851F16062A04D1F5004D382E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		853AC9BB2A034E3C00D76596 /* Build configuration list for PBXNativeTarget "AluraTravel" */ = {
+		851F16072A04D1F5004D382E /* Build configuration list for PBXNativeTarget "AluraTravel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				853AC9BC2A034E3C00D76596 /* Debug */,
-				853AC9BD2A034E3C00D76596 /* Release */,
+				851F16082A04D1F5004D382E /* Debug */,
+				851F16092A04D1F5004D382E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -359,7 +355,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		853AC9BE2A034EEA00D76596 /* XCRemoteSwiftPackageReference "Inject" */ = {
+		858DF9472A05DB9400D9ACC8 /* XCRemoteSwiftPackageReference "Inject" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/krzysztofzablocki/Inject";
 			requirement = {
@@ -370,12 +366,12 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		853AC9BF2A034EEA00D76596 /* Inject */ = {
+		858DF9482A05DB9400D9ACC8 /* Inject */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 853AC9BE2A034EEA00D76596 /* XCRemoteSwiftPackageReference "Inject" */;
+			package = 858DF9472A05DB9400D9ACC8 /* XCRemoteSwiftPackageReference "Inject" */;
 			productName = Inject;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 853AC9A52A034E3A00D76596 /* Project object */;
+	rootObject = 851F15F12A04D1F2004D382E /* Project object */;
 }
