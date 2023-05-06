@@ -45,12 +45,10 @@ struct ContentView: View {
                 }
                 .offset(y: -35)
                 
-                List {
-                    Text("São Paulo")
-                    Text("Rio de Janeiro")
-                    Text("Ceará")
-                    Text("Atibaia")
+                List(trips) { trip in
+                    Text(trip.title)
                 }
+         
             }
         }
         .enableInjection()
