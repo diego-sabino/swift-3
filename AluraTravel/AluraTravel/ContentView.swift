@@ -35,7 +35,7 @@ struct ContentView: View {
                         .background(.blue)
                         .offset(x: -50)
                     
-                    Button("Button") {}
+                    Button("Pacotes") {}
                         .frame(width: 100, height: 50)
                         .overlay(RoundedRectangle(cornerRadius: 10).stroke(.orange, lineWidth: 10))
                         .font(.custom("Avenir Medium", size: 17))
@@ -46,9 +46,25 @@ struct ContentView: View {
                 .offset(y: -35)
                 
                 List(trips) { trip in
-                    Text(trip.title)
+                    VStack(alignment: .leading) {
+                        Text(trip.title)
+                        Image(trip.image)
+                            .resizable()
+                            .frame(height: 250)
+                            .cornerRadius(10)
+                        
+                        HStack {
+                            Text(trip.numberOfDays)
+                            
+                            Spacer()
+                            
+                            Text(trip.value)
+                        }
+                    }
+                    .listRowSeparator(.hidden)
                 }
-         
+                .scrollContentBackground(.hidden)
+                
             }
         }
         .enableInjection()
