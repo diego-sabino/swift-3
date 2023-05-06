@@ -10,21 +10,26 @@ import Inject
 
 struct HeaderView: View {
     @ObservedObject private var iO = Inject.observer
+    
+    @Environment(\.horizontalSizeClass) var _horizontalSizeClass
+        
     var body: some View {
+        let mainTitleFontSize: CGFloat = self._horizontalSizeClass == .compact ? 20 : 30
+        
         GeometryReader { view in
             VStack {
                 VStack {
                     Text("AluraTrips")
                         .foregroundColor(Color.white)
-                        .font(.custom("Avenir Black", size: 20))
+                        .font(.custom("Avenir Black", size: mainTitleFontSize))
                     Text("Especial")
                         .foregroundColor(Color.white)
-                        .font(.custom("Avenir Book", size: 20))
+                        .font(.custom("Avenir Book", size: mainTitleFontSize))
                         .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                         .padding(.leading, 30)
                     Text("Brasil")
                         .foregroundColor(Color.white)
-                        .font(.custom("Avenir Black", size: 23))
+                        .font(.custom("Avenir Black", size: self._horizontalSizeClass == .compact ? 23 : 33))
                         .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                         .padding(.leading, 30)
                    
