@@ -17,6 +17,7 @@
 		85B13D072A05FDF00045DD85 /* trips.json in Resources */ = {isa = PBXBuildFile; fileRef = 85B13D062A05FDEF0045DD85 /* trips.json */; };
 		85B13D0A2A0602110045DD85 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B13D092A0602110045DD85 /* HeaderView.swift */; };
 		85B13D0C2A06035E0045DD85 /* CelluleTripsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B13D0B2A06035E0045DD85 /* CelluleTripsView.swift */; };
+		85B13D0E2A0628720045DD85 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B13D0D2A0628720045DD85 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		85B13D062A05FDEF0045DD85 /* trips.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = trips.json; sourceTree = "<group>"; };
 		85B13D092A0602110045DD85 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		85B13D0B2A06035E0045DD85 /* CelluleTripsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelluleTripsView.swift; sourceTree = "<group>"; };
+		85B13D0D2A0628720045DD85 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				851F15FE2A04D1F2004D382E /* ContentView.swift */,
 				85B13D092A0602110045DD85 /* HeaderView.swift */,
 				85B13D0B2A06035E0045DD85 /* CelluleTripsView.swift */,
+				85B13D0D2A0628720045DD85 /* MapView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85B13D0E2A0628720045DD85 /* MapView.swift in Sources */,
 				85B13D0A2A0602110045DD85 /* HeaderView.swift in Sources */,
 				85B13CFD2A05F97C0045DD85 /* Viagem.swift in Sources */,
 				85B13D052A05FD050045DD85 /* Data.swift in Sources */,
