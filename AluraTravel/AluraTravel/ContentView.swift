@@ -23,23 +23,27 @@ struct ContentView: View {
                         .padding(.leading, 30)
                    
                 }
-                .frame(width: view.size.width, height: 100, alignment: .top)
+                .frame(width: view.size.width, height: 135, alignment: .top)
                 .background(Color.purple)
                 
                 HStack {
                     Button("Hotéis") {}
                         .frame(width: 100, height: 50)
+                        .overlay(RoundedRectangle(cornerRadius: 10).stroke(.blue, lineWidth: 10))
                         .font(.custom("Avenir Medium", size: 17))
                         .foregroundColor(.white)
                         .background(.blue)
+                        .offset(x: -50)
                     
                     Button("Button") {}
                         .frame(width: 100, height: 50)
+                        .overlay(RoundedRectangle(cornerRadius: 10).stroke(.orange, lineWidth: 10))
                         .font(.custom("Avenir Medium", size: 17))
                         .foregroundColor(.white)
                         .background(.orange)
-                        
+                        .offset(x: 50)
                 }
+                .offset(y: -35)
                 
                 List {
                     Text("São Paulo")
